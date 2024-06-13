@@ -11,7 +11,7 @@ class MainKtTest {
     fun commission_LimitDay() {
         val amount = 200_000
         val result = commission(amount = amount)
-        assertEquals(100, result)
+        assertEquals(-1, result)
     }
 
     @Test
